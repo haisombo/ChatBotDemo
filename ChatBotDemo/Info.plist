@@ -2,9 +2,30 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>UIBackgroundModes</key>
-	<array>
-		<string>remote-notification</string>
-	</array>
+    <!-- Background Modes -->
+    <key>UIBackgroundModes</key>
+    <array>
+        <string>audio</string>
+    </array>
+    
+    <!-- Microphone Usage Description (Required) -->
+    <key>NSMicrophoneUsageDescription</key>
+    <string>This app needs microphone access to record your voice for speech-to-text conversion.</string>
+    
+    <!-- Speech Recognition Usage Description (Required) -->
+    <key>NSSpeechRecognitionUsageDescription</key>
+    <string>This app uses speech recognition to convert your spoken words into text messages.</string>
+    
+    <!-- Optional: If you're also using camera for attachments -->
+    <key>NSCameraUsageDescription</key>
+    <string>This app needs camera access to take photos for attachments.</string>
+    
+    <!-- Optional: If you're accessing photo library -->
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>This app needs access to your photo library to select images for attachments.</string>
+    
+    <!-- Optional: If you're adding photos to library -->
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>This app needs permission to save photos to your photo library.</string>
 </dict>
 </plist>
