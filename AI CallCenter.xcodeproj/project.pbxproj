@@ -24,18 +24,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		832F82B12E4C6B3D0012C636 /* ChatBotDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatBotDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		832F82C52E4C6B3F0012C636 /* ChatBotDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatBotDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		832F82CF2E4C6B3F0012C636 /* ChatBotDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatBotDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		832F82B12E4C6B3D0012C636 /* AI CallCenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AI CallCenter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		832F82C52E4C6B3F0012C636 /* AI CallCenterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AI CallCenterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		832F82CF2E4C6B3F0012C636 /* AI CallCenterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AI CallCenterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		832F82D72E4C6B3F0012C636 /* Exceptions for "ChatBotDemo" folder in "ChatBotDemo" target */ = {
+		832F82D72E4C6B3F0012C636 /* Exceptions for "ChatBotDemo" folder in "AI CallCenter" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 832F82B02E4C6B3D0012C636 /* ChatBotDemo */;
+			target = 832F82B02E4C6B3D0012C636 /* AI CallCenter */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -43,7 +43,7 @@
 		832F82B32E4C6B3D0012C636 /* ChatBotDemo */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				832F82D72E4C6B3F0012C636 /* Exceptions for "ChatBotDemo" folder in "ChatBotDemo" target */,
+				832F82D72E4C6B3F0012C636 /* Exceptions for "ChatBotDemo" folder in "AI CallCenter" target */,
 			);
 			path = ChatBotDemo;
 			sourceTree = "<group>";
@@ -98,9 +98,9 @@
 		832F82B22E4C6B3D0012C636 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				832F82B12E4C6B3D0012C636 /* ChatBotDemo.app */,
-				832F82C52E4C6B3F0012C636 /* ChatBotDemoTests.xctest */,
-				832F82CF2E4C6B3F0012C636 /* ChatBotDemoUITests.xctest */,
+				832F82B12E4C6B3D0012C636 /* AI CallCenter.app */,
+				832F82C52E4C6B3F0012C636 /* AI CallCenterTests.xctest */,
+				832F82CF2E4C6B3F0012C636 /* AI CallCenterUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,9 +108,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		832F82B02E4C6B3D0012C636 /* ChatBotDemo */ = {
+		832F82B02E4C6B3D0012C636 /* AI CallCenter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 832F82D82E4C6B3F0012C636 /* Build configuration list for PBXNativeTarget "ChatBotDemo" */;
+			buildConfigurationList = 832F82D82E4C6B3F0012C636 /* Build configuration list for PBXNativeTarget "AI CallCenter" */;
 			buildPhases = (
 				832F82AD2E4C6B3D0012C636 /* Sources */,
 				832F82AE2E4C6B3D0012C636 /* Frameworks */,
@@ -123,16 +123,16 @@
 			fileSystemSynchronizedGroups = (
 				832F82B32E4C6B3D0012C636 /* ChatBotDemo */,
 			);
-			name = ChatBotDemo;
+			name = "AI CallCenter";
 			packageProductDependencies = (
 			);
 			productName = ChatBotDemo;
-			productReference = 832F82B12E4C6B3D0012C636 /* ChatBotDemo.app */;
+			productReference = 832F82B12E4C6B3D0012C636 /* AI CallCenter.app */;
 			productType = "com.apple.product-type.application";
 		};
-		832F82C42E4C6B3F0012C636 /* ChatBotDemoTests */ = {
+		832F82C42E4C6B3F0012C636 /* AI CallCenterTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 832F82DD2E4C6B3F0012C636 /* Build configuration list for PBXNativeTarget "ChatBotDemoTests" */;
+			buildConfigurationList = 832F82DD2E4C6B3F0012C636 /* Build configuration list for PBXNativeTarget "AI CallCenterTests" */;
 			buildPhases = (
 				832F82C12E4C6B3F0012C636 /* Sources */,
 				832F82C22E4C6B3F0012C636 /* Frameworks */,
@@ -146,16 +146,16 @@
 			fileSystemSynchronizedGroups = (
 				832F82C82E4C6B3F0012C636 /* ChatBotDemoTests */,
 			);
-			name = ChatBotDemoTests;
+			name = "AI CallCenterTests";
 			packageProductDependencies = (
 			);
 			productName = ChatBotDemoTests;
-			productReference = 832F82C52E4C6B3F0012C636 /* ChatBotDemoTests.xctest */;
+			productReference = 832F82C52E4C6B3F0012C636 /* AI CallCenterTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		832F82CE2E4C6B3F0012C636 /* ChatBotDemoUITests */ = {
+		832F82CE2E4C6B3F0012C636 /* AI CallCenterUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 832F82E02E4C6B3F0012C636 /* Build configuration list for PBXNativeTarget "ChatBotDemoUITests" */;
+			buildConfigurationList = 832F82E02E4C6B3F0012C636 /* Build configuration list for PBXNativeTarget "AI CallCenterUITests" */;
 			buildPhases = (
 				832F82CB2E4C6B3F0012C636 /* Sources */,
 				832F82CC2E4C6B3F0012C636 /* Frameworks */,
@@ -169,11 +169,11 @@
 			fileSystemSynchronizedGroups = (
 				832F82D22E4C6B3F0012C636 /* ChatBotDemoUITests */,
 			);
-			name = ChatBotDemoUITests;
+			name = "AI CallCenterUITests";
 			packageProductDependencies = (
 			);
 			productName = ChatBotDemoUITests;
-			productReference = 832F82CF2E4C6B3F0012C636 /* ChatBotDemoUITests.xctest */;
+			productReference = 832F82CF2E4C6B3F0012C636 /* AI CallCenterUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -199,7 +199,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 832F82AC2E4C6B3D0012C636 /* Build configuration list for PBXProject "ChatBotDemo" */;
+			buildConfigurationList = 832F82AC2E4C6B3D0012C636 /* Build configuration list for PBXProject "AI CallCenter" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -213,9 +213,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				832F82B02E4C6B3D0012C636 /* ChatBotDemo */,
-				832F82C42E4C6B3F0012C636 /* ChatBotDemoTests */,
-				832F82CE2E4C6B3F0012C636 /* ChatBotDemoUITests */,
+				832F82B02E4C6B3D0012C636 /* AI CallCenter */,
+				832F82C42E4C6B3F0012C636 /* AI CallCenterTests */,
+				832F82CE2E4C6B3F0012C636 /* AI CallCenterUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -271,12 +271,12 @@
 /* Begin PBXTargetDependency section */
 		832F82C72E4C6B3F0012C636 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 832F82B02E4C6B3D0012C636 /* ChatBotDemo */;
+			target = 832F82B02E4C6B3D0012C636 /* AI CallCenter */;
 			targetProxy = 832F82C62E4C6B3F0012C636 /* PBXContainerItemProxy */;
 		};
 		832F82D12E4C6B3F0012C636 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 832F82B02E4C6B3D0012C636 /* ChatBotDemo */;
+			target = 832F82B02E4C6B3D0012C636 /* AI CallCenter */;
 			targetProxy = 832F82D02E4C6B3F0012C636 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -502,7 +502,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChatBotDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChatBotDemo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AI CallCenter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AI CallCenter";
 				XROS_DEPLOYMENT_TARGET = 2.2;
 			};
 			name = Debug;
@@ -525,7 +525,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChatBotDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChatBotDemo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AI CallCenter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AI CallCenter";
 				XROS_DEPLOYMENT_TARGET = 2.2;
 			};
 			name = Release;
@@ -577,7 +577,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		832F82AC2E4C6B3D0012C636 /* Build configuration list for PBXProject "ChatBotDemo" */ = {
+		832F82AC2E4C6B3D0012C636 /* Build configuration list for PBXProject "AI CallCenter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				832F82DB2E4C6B3F0012C636 /* Debug */,
@@ -586,7 +586,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		832F82D82E4C6B3F0012C636 /* Build configuration list for PBXNativeTarget "ChatBotDemo" */ = {
+		832F82D82E4C6B3F0012C636 /* Build configuration list for PBXNativeTarget "AI CallCenter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				832F82D92E4C6B3F0012C636 /* Debug */,
@@ -595,7 +595,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		832F82DD2E4C6B3F0012C636 /* Build configuration list for PBXNativeTarget "ChatBotDemoTests" */ = {
+		832F82DD2E4C6B3F0012C636 /* Build configuration list for PBXNativeTarget "AI CallCenterTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				832F82DE2E4C6B3F0012C636 /* Debug */,
@@ -604,7 +604,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		832F82E02E4C6B3F0012C636 /* Build configuration list for PBXNativeTarget "ChatBotDemoUITests" */ = {
+		832F82E02E4C6B3F0012C636 /* Build configuration list for PBXNativeTarget "AI CallCenterUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				832F82E12E4C6B3F0012C636 /* Debug */,
